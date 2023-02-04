@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>REGISTER</title>
+    <style>
+        .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    border: 25px solid rgb(170, 85, 5); 
+  }
+
+  body {
+            background-image: url("/image/index.jpg");
+         }
+    </style>
+</head>
+
+<body>
+
+    <center>
+
+    <h1>Welcome to Register Page <br>
+    please register yourself</h1>
+    <div class="center">
+    <form action="#">
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="roll">Enter yr Roll NO :</label>
+        <div>
+             <input type="number" name="Roll"id="rolln">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</div>
+
+    </center>
+</body>
+
+</html>
